@@ -18,6 +18,7 @@ app = FastAPI(
     version=settings.APP_VERSION,
     description="FuzeBox AI Readiness & Agentic ROI Platform — CAITO · GSTI · RAI · RAIA · RAW",
     lifespan=lifespan,
+    root_path="/api",
 )
 
 app.add_middleware(
